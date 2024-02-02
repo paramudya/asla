@@ -1,0 +1,113 @@
+tren:menginformasikan besarna nilai / volume dari periode bulan yang terkait termasuk informasi bulan yang mengindikasikan nilai tertinggi dan terendah yang dipilih berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate
+periode:year on year, year to date. year on year artinya data diambil merupaka agregasi 12 bulan penuh. year to date artinya data merupakan agregasi selama tahun berjalan\n
+as_of_date:tanggal terakhir suatu bulan berdasarkan periode yang dipilih, misalkan 20230930 (tahun 2023, bulan 09 atau september, tanggal 30)\n
+flag_trx:jenis tren meliputi: CASA atau Current Account and Savings Account,cash in atau pemasukan, cash out atau pengeluaran, closedloop atau feedback, co intra vs co total\n
+variable:variabel tren meliputi: eom atau end of month, mtd atau month to date, avg interbank/average interbank, avg interbank, interbank, intrabank, ytd atau year to date\n
+divisi_kelolaan:divisi kelolaan, divisi, unit kelolaan\n
+group_corporate:group corporate, grup perusahaan. grup\n
+bulan1:besarnya nilai pada bulan pertama dalam periode, 11 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan1:nama bulan pertama dalam periode, 11 bulan sebelum bulan saat ini berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan2:besarnya nilai pada bulan kedua dalam periode, 10 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan2:nama bulan kedua dalam periode, 10 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan3:besarnya nilai pada bulan ketiga dalam periode, 9 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan3:nama bulan ketiga dalam periode, 9 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan4:besarnya nilai pada bulan keempat dalam periode, 8 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan4:nama bulan keempat dalam periode, 8 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan5:besarnya nilai pada bulan kelima dalam periode, 7 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan5:nama bulan kelima dalam periode, 7 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan6:besarnya nilai pada bulan keenam dalam periode, 6 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan6:nama bulan keenam dalam periode, 6 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan7:besarnya nilai pada bulan ketujuh dalam periode, 5 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan7:nama bulan ketujuh dalam periode, 5 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan8:besarnya nilai pada bulan kedelapan dalam periode, 4 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan8:nama bulan kedelapan dalam periode, 4 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan9:besarnya nilai pada bulan kesembilan dalam periode, 3 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan9:nama bulan kesembilan dalam periode, 3 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan10:besarnya nilai pada bulan kesepuluh dalam periode, 2 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan10:nama bulan kesepuluh dalam periode, 2 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan11:besarnya nilai pada bulan kesebelas dalam periode, 1 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan11:nama bulan kesebelas dalam periode, 1 bulan sebelum as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+bulan12:besarnya nilai pada bulan keduabelas dalam periode, sama dengan as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+namabulan12:nama bulan keduabelas dalam periode, sama dengan as_of_date berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+mean_value:nilai rata-rata dari keseluruhan nilai tiap bulan yang diambil berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+min_value:Nilai terendah dari keseluruhan nilai tiap bulan yang diambil berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+max_value:Nilai tertinggi dari  keseluruhan nilai tiap bulan yang diambil berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+max_bulan:Bulan dengan nilai tertinggi dari keseluruhan nilai tiap bulan yang diambil berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+min_bulan:Bulan dengan nilai terendah dari keseluruhan nilai tiap bulan yang diambil berdasarkan periode, as_of_date, flag_trx, variable, divisi_kelolaan, dan group_corporate terkait\n
+list_cif:menginformasikan list cif / daftar cif termasuk informasi posisi saldo, rerata / rata-rata saldo, baki debet, rerata / rata-rata baki debet, maksimum kredit, utilisasi kredit, loan to deposit ration / ldr, kepemilikan kredit / loan di BNI, dan penggunaan payroll di BNI berdasarkan grup, divisi, cif key, dan entitas yang dipilih\n
+grup:group corporate, grup perusahaan. grup\n
+divisi:divisi kelolaan, divisi, unit kelolaan\n
+cif_key:cif (Customer Information File) merupakan identitas unik nasabah BNI. cif sesuai grup yang dipilih\n
+nama_entitas:nama entitas yang terdaftar di BNI. Satu entitas bisa jadi memiliki lebih dari 1 cif. nama entitas merupakan entitas yang terdapat di dalam grup yang dipilih\n
+posisi_saldo_eom:posisi saldo end of month, posisi saldo terakhir dari cif_key dalam bulan yang dipilih\n
+avg_saldo_ytd:average saldo year to date, rata-rata saldo harian sejak awal tahun / sejak awal tahun ini / dari awal tahun / dari awal tahun Ini dari cif_key\n
+baki_debet_eom:baki debet di end of month / akhir bulan terkait dari cif_key. Menandakan besaran nominal kredit dari cif_key terkait.\n
+avg_baki_debet_ytd:rata-rata baki debet harian di tahun berjalan dari cif_key\n
+maksimum_kredit:nilai maksimum / batas paling besar kredit dari cif_key\n
+utilisasi_kredit:didapat dengan membagi baki_debet_eom dengan maksimum kredit. menandakan berapa persen potensi kredit dari cif_key yang telah digunakan\n
+ldr_eom:loan to deposit ration. menunjukkan perbandingan antara baki_debet_eom (baki debet cif_key) dengan posisi_saldo_eom (saldo dpk cif_key). nilai ldr yang tinggi mengindikasikan cif_key memiliki lebih banyak hutan dibandingkan asetnya di BNI\n
+ldr_ytd:loan to deposit ration. menunjukkan perbandingan antara avg_baki_debet_ytd (rata rata baki debet harian cif_key selama tahun berjalan) dengan avg_saldo_ytd (rata rata saldo dpk harian cif_key selama tahun berjalan). nilai ldr yang tinggi mengindikasikan cif_key memiliki lebih banyak hutan dibandingkan asetnya di BNI\n
+flag_debitur:bernilai 1 atau 0. 1 artinya cif_key tersebut telah memiliki kredit / loan di BNI\n
+flag_payroll:bernilai 1 atau 0. 1 artinya cif_key tersebut telah berpayroll BNI\n
+rn:urutan cif_key pada grup yang dipilih. diurutkan dari yang memiliki saldo dpk (posisi_saldo_eom) tertinggi\n
+as_of_date:tanggal terakhir suatu bulan berdasarkan periode yang dipilih, misalkan 20230930 (tahun 2023, bulan 09 atau september, tanggal 30)\n
+value_chain:menginformasikan value chain termasuk: frekuensi dan volume cash in dan cash out, posisi saldo, rerata / rata-rata saldo, potensi cash in dan cash out, produk funding / tabungan, produk lending/pinjaman, produk investment/investasi, serta produk echannel berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+periode:year on year, year to date. year on year artinya data diambil merupaka agregasi 12 bulan penuh. year to date artinya data merupakan agregasi selama tahun berjalan\n
+tanggal:tanggal terakhir suatu bulan berdasarkan periode yang dipilih, misalkan 20230930 (tahun 2023, bulan 09 atau september, tanggal 30). sama dengan as_of_date\n
+nama_group:group corporate, grup perusahaan, grup\n
+divisi_kelolaan:divisi kelolaan, divisi, unit kelolaan\n
+frekuensi_cash_in:frekuensi cash in / frekuensi transaksi masuk / jumlah transaksi yang masuk dari nama_group yang masuk berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+volume_cash_in:volume cash in / volume transaksi masuk / nominal transaksi yang masuk dari nama_group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+frekuensi_cash_out:frekuensi cash out / frekuensi transaksi keluar / jumlah transaksi yang keluar dari nama_group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+volume_cash_out:volume cash out / volume transaksi keluar / nominal transaksi yang keluar dari nama_group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+posisi_saldo_eom:posisi saldo end of month, posisi saldo terakhir dari nama_group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+avg_saldo_ytd:average saldo year to date, rata-rata saldo harian sejak awal tahun / sejak awal tahun ini / dari awal tahun / dari awal tahun Ini dari nama_group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+persentase_co_intra_co_total:perbandingan antara volume transaksi keluar ke sesama bni dengan volume transaksi keluar ke bank lain dari nama group dalam bentuk persentase berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait. Melambangkan seberapa banyaknya uang yang keluar dan tetap berputar di bni. Bisa menggambarkan tingkat kesehatan keuangan perusahaan di BNI\n
+persentase_closed_loop:perbandingan antara volume transaksi keluar ke sesama bni dengan volume transaksi masuk total dari nama group dalam bentuk persentase berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait. Melambangkan seberapa banyak perputaran uang yang menetap di BNI yang berasal dari sesama BNI maupun bank lain.\n
+cash_in_bni:cash in bni, volume cash in / volume transaksi masuk / nominal transaksi yang masuk dari sesama bni dari nama group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_bni_reksendiri:cash in bni rekening sendiri, volume transaksi masuk / nominal transaksi yang masuk dari rekening sendiri di dalam cif yang sama dari nama group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_bni_intercompany:cash in bni inter company, volume transaksi masuk / nominal transaksi yang masuk dari inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_bni_mitrakorporat:cash in bni mitra korporat, volume transaksi masuk / nominal transaksi yang masuk dari mitra korporat berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_bni_unclassified:cash in bni unclassified,  volume transaksi masuk / nominal transaksi yang masuk yang tidak terklasifikasi berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank:cash in bni, volume transaksi masuk / nominal transaksi yang masuk dari bank lain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank_reksendiri:cash in other bank rekening sendiri, volume transaksi masuk / nominal transaksi yang masuk dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank_intercompany:cash in other bank inter company, volume transaksi masuk / nominal transaksi yang masuk dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank_mitrakorporat:cash in other bank mitra korporat, volume transaksi masuk / nominal transaksi yang masuk dari bank lain ke mitra korporat berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank_unclassified:cash in other bank unclassified, volume transaksi masuk / nominal transaksi yang masuk dari bank lain ke kategori tidak terklasifikasi berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_other_bank_setortunai:cash in other bank setor tunai, volume transaksi masuk / nominal transaksi yang masuk dari bank lain ke setor tunai berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_in_payment:cash in payment, volume transaksi masuk / nominal transaksi yang masuk dari pembayaran atau payment berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_bni:cash out bni, volume cash out / volume transaksi keluar / nominal transaksi yang keluar dari sesama bni dari nama group berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_bni_reksendiri:cash out other bank rekening sendiri, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_bni_intercompany:cash out other bank inter company, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_bni_mitrakorporat:cash out other bank mitra korporat, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke mitra korporat berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_bni_unclassified:cash out other bank unclassified, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke kategori tidak terklasifikasi berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank:cash out bni, volume transaksi keluar / nominal transaksi yang keluar dari bank lain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_reksendiri:cash out other bank rekening sendiri, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_intercompany:cash out other bank inter company, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke inter company berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_mitrakorporat:cash out other bank mitra korporat, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke mitra korporat berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_unclassified:cash out other bank unclassified, volume transaksi keluar / nominal transaksi yang keluar dari bank lain ke kategori tidak terklasifikasi berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_tariktunai:cash out other bank tarik tunai, volume transaksi keluar / nominal transaksi yang keluar dari tarik tunai berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_other_bank_tarikcheq:cash out other bank tarik cheq, volume transaksi keluar / nominal transaksi yang keluar dari tarik cheq berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+cash_out_payment:cash out payment, volume transaksi keluar / nominal transaksi yang keluar dari pembayaran atau payment berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_bni_value_chain:potensi cash in dari bni value chain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_bni_persentase:potensi cash in dari bni persentase berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_bni_volume:potensi cash in dari volume bni berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_bni_frekuensi:potensi cash in dari frekuensi bni berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_bni_top10:potensi cash in dari top 10 bni berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_other_bank_volume:potensi cash in other bank volume, potensi volume transaksi masuk dari bank lain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_other_bank_frekuensi:potensi cash in other bank frekuensi, potensi frekuensi masuk dari bank lain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_other_bank_top3_bank:potensi cash in top 3 other bank, top 3 bank yang memiliki potensi cash in terbesar berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_in_other_bank_top5:potensi cash in top 5 other bank, top 5 bank yang memiliki potensi cash in terbesar berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_bni_value_chain:potensi cash out dari bni value chain berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_bni_persentase:potensi cash out dari bni persentase berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_bni_volume:potensi cash out dari volume bni berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_bni_frekuensi:potensi cash out dari frekuensi bni berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_bni_top10:potensi cash out top 10 bank, top 10 bank yang memiliki potensi cash out terbesar berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_other_bank_volume:potensi cash out dari volume other bank berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_other_bank_frekuensi:potensi cash out dari frekuensi other bank berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_other_bank_top3_bank:potensi cash out top 3 other bank, top 3 bank yang memiliki potensi cash out terbesar berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+potensi_cash_out_other_bank_top5:potensi cash out top 5 other bank, top 5 bank yang memiliki potensi cash out terbesar berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+funding_product:produk tabungan berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait, berupa: \n
+lending_product:produk pinjaman berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait, berupa: flexi, griya\n
+investment_product:produk investasi berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n
+echannel_product:produk echannel berdasarkan periode, tanggal, nama_group, dan divisi_kelolaan terkait\n

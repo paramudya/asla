@@ -1,0 +1,12 @@
+pandasai 
+pandas 
+python-dotenv 
+nbformat
+llama_hub
+openai 
+nltk 
+gradio 
+pypdf 
+supabase 
+langchain
+python-dotenv
