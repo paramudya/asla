@@ -1,12 +1,28 @@
 pandasai 
-pandas 
+pandas>=1.1.4
+seaborn>=0.11.0 
 python-dotenv 
 nbformat
+Pillow>=9.4.0
+psutil  # system resources
+requests>=2.23.0
+scipy>=1.4.1
+thop>=0.1.1  #cuda
+langchain
+torch>=1.8.0  
+torchvision
+tf-nightly[and-cuda]==2.14.0.dev20230712
 llama_hub
 openai 
 nltk 
 gradio 
-pypdf 
+tqdm>=4.64.0
+torch
+fairscale
+fire
+SQLAlchemy
+sentencepiece
 supabase 
-langchain
 python-dotenv
+tensorflow
+pytorch
